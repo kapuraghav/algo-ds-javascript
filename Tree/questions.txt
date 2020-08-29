@@ -1,0 +1,12 @@
+Q:- Traverse the binary tree pre,post and in order
+Q:- Total number of nodes.
+Q:- Sum of all nodes.
+Q:- Find max node in a tree.
+Q:- maximum height of a tree.
+Q:- Sum of all leaf nodes or all the nodes farthest from the root
+Q:- Print all the routes to all the leaf nodes.
+Q:- Give all the permutations of the string.
+Q:- Give all the combinations of the string, where K = something
+Q:- Give an array of all the all expiry date of a product, ( one can only eat the non expired item, and max k in a day ),
+    what is the maximum number of product one can eat.
+Q:- find duplicate in an array ( space O(N) )

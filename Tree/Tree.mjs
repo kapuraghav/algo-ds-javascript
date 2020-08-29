@@ -1,35 +1,27 @@
-class TreeNode {
+export class TreeNode {
     constructor(value){
         this.value = value;
         this.left = null;
         this.right = null;
-        this.parent = null;
     }
 
-    get left(){
+    getLeft(){
         return this.left;
     }
 
-    set seLeft(node){
+    setLeft(node){
         this.left = node;
-        if(node){
-            node.parent = this;
-        }
     }
 
-    get right() {
+    getRight() {
         return this.right;
     }
-    set right(node){
+
+    setRight(node){
         this.right = node;
-        if(node){
-            node.parent = this;
-        }
     }
 
     print(){
         console.log(this.value);
     }
 }
-
-export default TreeNode;
